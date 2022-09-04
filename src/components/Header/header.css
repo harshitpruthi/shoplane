@@ -1,0 +1,28 @@
+.head12Div {
+    display: flex;
+    min-height: 80px;
+    justify-content: space-between;
+}
+
+.head12CartImg {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.head12Logo {
+    cursor: pointer;
+}
+
+.head12CartQuantity {
+    position: absolute;
+    color: #fff;
+    width: 22px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 22px;
+    background: #00d09c;
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: -25px;
+}

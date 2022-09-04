@@ -1,0 +1,75 @@
+.cp44TableHeader {
+    width: 20%;
+}
+
+.cp44TableRow {
+    padding: 30px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.cp44CartTotal {
+    margin-right: 74px;
+}
+
+.cp44TotalAmtDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.cp44CrossBtn {
+    cursor: pointer;
+    color: #fff;
+}
+
+.cp44CrossBtnDiv {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.cp44QuantityDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cp44CheckoutBtn {
+    margin-top: 20px;
+}
+
+.cp44PopupStyle {
+    height: 300px;
+    padding: 50px 30px 30px;
+}
+
+.cp44EmailDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-right: 0px;
+    align-items: center;
+}
+
+.cp44EmailInput {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.cp44AmountDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cp44ErrorMsgTxt {
+    color: red;
+    font-size: 14px;
+}

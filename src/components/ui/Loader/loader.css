@@ -1,0 +1,76 @@
+@import './loaderAnimations.css';
+.loader14Active {
+  position: relative;
+  display: inline-block;
+}
+
+.loader14Hidden {
+  display: none;
+}
+
+.loader14Active.loader14Block {
+  display: block;
+}
+
+.loader14Inner {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.loader14Inner.loader14SMALL {
+  width: 12px;
+  height: 12px;
+}
+
+.loader14Inner.loader14MEDIUM {
+  width: 15px;
+  height: 15px;
+}
+
+.loader14Inner.loader14LARGE {
+  width: 18px;
+  height: 18px;
+}
+
+.loader14Inner.loader14MEDIUM_LARGE {
+  width: 26px;
+  height: 26px;
+}
+
+.loader14Inner.loader14EXTRA_LARGE {
+  width: 32px;
+  height: 32px;
+}
+
+.loader14Linear {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 4px;
+  background-color: #E5FAF5;
+}
+
+.loader14Indeterminate {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.loader14Indeterminate:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  background-color: #00d09c;
+  animation: indeterminate_first3312 1.5s infinite ease-out;
+}
+
+.loader14Indeterminate:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  background-color: #E5FAF5;
+  animation: indeterminate_second3312 1.5s infinite ease-in;
+}
